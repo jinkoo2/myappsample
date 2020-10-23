@@ -1,7 +1,7 @@
 {
-  "name": "my-electron-app",
+  "name": "dicom-jpeg-decompressor",
   "version": "1.0.0",
-  "description": "a test app",
+  "description": "dicom-jpeg-decompressor uses dcmdjpeg.exe from DCMTK to decompress dicom image files",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -29,7 +29,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "my_electron_app"
+            "name": "dicom-jpeg-decompressor"
           }
         },
         {
